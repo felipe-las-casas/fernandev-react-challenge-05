@@ -1,5 +1,4 @@
-import { useState } from 'react';
-
+import Pokemons from "./components/Pokemons";
 /*
 Consuma a API e liste todos os pokemons da consulta do seguinte endpoint. 
 https://pokeapi.co/api/v2/pokemon
@@ -20,15 +19,10 @@ experiência => base_experience
 EXTRA: se puder ordene por nome.
 */
 
-function App() {
-  const [count, setCount] = useState(0);
 
-  return (
-    <>
-      <h3>desafio fernandev</h3>
-      <h1>consumir api pokémon</h1>
-    </>
-  );
+
+function App() {
+  return <Pokemons />
 }
 
 export default App;

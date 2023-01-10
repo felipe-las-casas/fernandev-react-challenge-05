@@ -1,0 +1,14 @@
+.pokemon {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+    width: 220px;
+}
+
+.xp {
+    color: #666; 
+}
+
+img {
+    width: 70px;
+}
